@@ -12,6 +12,10 @@
     right: 15%;
     
   }
+  body{
+    background-color: black;
+    color: white;
+  }
 
   .subscribe{    
     text-align: center;
