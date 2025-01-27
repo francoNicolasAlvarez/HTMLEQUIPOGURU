@@ -9,6 +9,7 @@ function showMail (){
             icon: "success",
             title: "Su correo es valido",
             text: `Gracias por inscribirse ${mail}`,
+            showCancelButton: true,
             confirmButtonText: 'Ese es mi correo',
             cancelButtonText: 'No, me equivoque',
           });
