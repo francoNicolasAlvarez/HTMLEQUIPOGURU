@@ -1,10 +1,15 @@
   .center-square {    
+    width: 70%;
+    height: 70%;
     background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     align-content: center;    
     border-radius: 10%;    
     text-align: center;
     align-items: center;
     position: fixed;
+    bottom: 15%;
+    right: 15%;
     
   }
 

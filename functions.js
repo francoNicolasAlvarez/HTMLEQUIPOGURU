@@ -8,7 +8,9 @@ function showMail (){
         Swal.fire({
             icon: "success",
             title: "Su correo es valido",
-            text: `Gracias por inscribirse ${mail}`
+            text: `Gracias por inscribirse ${mail}`,
+            confirmButtonText: 'Ese es mi correo',
+            cancelButtonText: 'No, me equivoque',
           });
       } else {
         Swal.fire({
